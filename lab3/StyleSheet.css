@@ -1,0 +1,6 @@
+body {background-color: lightgrey}
+#link-bar {background-color: orange}
+#first-line {text-decoration: underline; font-style: italic}
+p {text-indent:40px;line-height:30px}
+h2 {color:blue;text-align:center;text-transform:uppercase}
+#footer {font-size:small;text-align:center}

@@ -1,0 +1,139 @@
+/*styling used for all pages*/
+
+
+/*styling for main page*/
+
+p {text-indent:40px;line-height:30px}
+h1 {
+	font-size:20pt;
+	font-weight:bold;
+}
+h2 {font-size:15pt;}
+#header {
+	border:1px solid black;
+}
+#menu {	
+	font-size:12pt;
+    	border-width:1px;
+	border-style:solid;
+	padding:.5em 0em;
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:left;
+}
+
+#pagetitle {font-size:25pt}
+#jobimage {vertical-align:middle}
+
+#page{
+	column-count:2;
+}
+
+.row{
+	display:flex;
+}
+.rightcolumn{
+	flex:20%;
+}
+.leftcolumn{
+	flex:80%;
+}
+
+#partners {
+	clear:both;
+	font-size:20pt;
+	font-weight:bold;
+}
+#mainpane {
+}
+
+.linkcontainer {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-evenly;
+}
+.linkcontainer div {
+	border:1px;
+	border-style:solid;
+	text-align:center;
+	vertical-align:middle;
+	padding:1em 5em;
+	margin:1em;
+}
+#lalogo {
+	display:inline;
+	width:50%;
+}
+
+#advertisement{
+	background:yellow;
+	height:10em;
+}
+#featuredjobs {
+	border-bottom:3px solid black;
+	vertical-align:baseline;
+}
+.jobinfo {
+	border:1px solid black;
+	padding:.5em;
+}
+#footer {
+	border:1px solid black;
+	padding:1em;
+	text-align:center;
+}
+/*stying for the jobseekers.html*/
+.textrow{
+	border-bottom:1px solid black;
+	padding: 10px 0px 10px 0px;
+}
+.textrow div{
+	display:inline-block;
+	width:15%;
+	text-align:center;
+}
+
+.nounderline{
+	text-decoration:none;
+}
+
+
+.textrowheading{
+	border-bottom:2px solid black;
+	font-weight:bold;
+}
+/*styling for employeers page*/
+
+.formrow{
+	padding:10px 0px 10px 0px;
+}
+
+.formrow div{
+	display:"inline-block";
+	width:30px;
+	
+}
+label{
+	display:"inline-block";
+	float:left;
+	font-weight:bold;
+	width:13em;
+}
+input{
+	display"inline-Block"
+}
+.formsheet {
+	display:"inline-block";
+	border:1px solid black;
+}
+button{
+	display:"inline-block";
+}
+#textarealabel{
+	vertical-align:baseline;
+}
+`

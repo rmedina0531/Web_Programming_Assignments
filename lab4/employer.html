@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="StyleSheet.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Employers</title>
+	</head>
+	<div id="header">
+                <div id="pagetitle">
+                        <a href="./tj.html"><img id="jobimage" src="./tj.png" /></a>
+                        Top Jobs
+                </div>
+                 <div id="menu">
+                        <a href="./tj.html">Home</a>
+                        |
+                        <a href="./jobseeker.html">Job Seeker</a>
+                        |
+                        <a href="./employer.html">Employer</a>
+                </div>
+    </div>
+	<body>
+		<h1>Employer</h1>
+		Please use the following form to post your jobs:
+		<br><br>
+		<div class="formsheet">
+		<form>
+				<div class="formrow">
+					<label>Job Title</label>
+
+					<form><input type="text" name="jobtitle" value="" />
+				</div>
+				<div class="formrow">
+					<label>Category</label>
+					<select name="position">
+						<option value="SoftwareDeveloper">Software Developer</option>
+						<option value="SystemAdministrator">System Administrator</option>
+					</select>
+				</div>
+				<div class="formrow">
+					<label>Location</label>
+					<input type="text" name="location" value="" />
+				</div>
+				<div class="formrow">
+						<label>Salary Range</label>
+						<input type="text" name="from" value="From" />
+						<input type="text" name="to" value="To" />
+				</div>
+				<div class="formrow">
+					<label>Preferred Qualifications</label>
+							<input name="java" type="checkbox">Java
+							<input name="python" type="checkbox">Python
+							<input name="c#" type="checkbox">C#
+							<input name="mysql" type="checkbox">My SQL
+							<input name="MS SQL Server" type="checkbox">MS SQL Server
+							<input name="Azure" type="checkbox">Azure
+							<input name="AWS" type="checkbox">AWS
+				</div>
+				<div class="formrow" id="testarealabel">
+					<label>Additional Information</label>
+					<textarea rows="10" cols="50"></textarea>
+				</div>
+				<div class="formrow">
+						<button>Cancel</button>
+						<button>Post</button>
+				</div>
+		</form>
+		</div>
+</html>

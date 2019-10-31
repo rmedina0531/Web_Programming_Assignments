@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Employers</title>
+	</head>
+	<br>
+	<h1>
+		<a href="./tj.html"><img src="./tj.png" align="botton"/></a>
+		<font size="16">Top Jobs</font>
+	</h1>
+	<h2>
+		<font size="6"><b>Employer</b></font>
+	</h2>
+	<body>
+		Please use the following form to post your jobs:
+		<br><br>
+		<form>
+		<table border="1">
+				<tr>
+					<th>Job Title</th>
+					<td><form><input type="text" name="jobtitle" value="" /></td>
+				</tr>
+				<tr>
+					<th>Category</th>
+					<td><select name="position">
+								<option value="SoftwareDeveloper">Software Developer</option>
+								<option value="SystemAdministrator">System Administrator</option>
+					</td>
+				</tr>
+				<tr>
+					<th>Location</th>
+					<td><input type="text" name="location" value="" /></td>
+				</tr>
+				<tr>
+					<th>Salary Range</th>
+					<td>
+						<table>
+							<tr><td><input type="text" name="from" value="From" /></td></tr>
+							<tr><td><input type="text" name="to" value="To" /></td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<th>Preferred Qualifications</th>
+					<td>
+							<input name="java" type="checkbox">Java
+							<input name="python" type="checkbox">Python
+							<input name="c#" type="checkbox">C#<br>
+							<input name="mysql" type="checkbox">My SQL
+							<input name="MS SQL Server" type="checkbox">MS SQL Server<br>
+							<input name="Azure" type="checkbox">Azure
+							<input name="AWS" type="checkbox">AWS
+					</td>
+				</tr>
+				<tr>
+					<th>Additional Information</th>
+					<td><textarea rows="10" cols="50"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button>Cancel</button>
+						<button>Post</button>
+					</td>
+				</tr>
+		</table>
+		</form>
+</html>
